@@ -139,6 +139,7 @@ body {
 
 .final_card_page .img_box img {
   width: 450px;
+  border-radius: 5px;
 }
 
 .click_play,
@@ -253,14 +254,17 @@ body {
 }
 
 .back {
-  background-color: #792c28;
-  transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #792c28;
+}
+
+.front {
+  transform: rotateY(180deg);
   height: 100%;
-  width: 350px;
+  width: 100%;
 }
 
 .back img {
@@ -341,4 +345,8 @@ body {
 .disabled {
   background-color: #84817a;
   pointer-events: none;
+}
+
+.add_event {
+  pointer-events: visible;
 }

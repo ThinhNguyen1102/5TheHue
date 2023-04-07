@@ -285,6 +285,7 @@ const app = {
     const doneBtn = document.querySelector(".done");
     const skipBtn = document.querySelector(".skip");
     const finalCard = document.querySelector(".final_card_page");
+
     if (count > 0) {
       const containerCardbox = document.querySelector(".container_card-box");
       let rand = Math.floor(Math.random() * 25) % 25;
@@ -306,6 +307,7 @@ const app = {
       doneBtn.classList.add("disabled");
       skipBtn.classList.add("disabled");
       finalCard.classList.add("is_show_o");
+      finalCard.classList.add("add_event");
     }
   },
   handleEvent() {
