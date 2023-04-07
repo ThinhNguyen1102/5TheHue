@@ -191,7 +191,7 @@ const datas = [
   {
     id: 18,
     question: "How do you feel?",
-    mainImageUrl: "./images/fun_dac_biet.png",
+    mainImageUrl: "./images/Kien_truc_7_chua_thien_mu.png",
     defaultImageUrl: "./images/default.jpg",
     resultImage: "./images/5TheHue/5TheHue_18.gif",
     isDone: false,
