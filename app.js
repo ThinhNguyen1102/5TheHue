@@ -351,11 +351,6 @@ const datas = [
   },
 ];
 window.addEventListener("load", function () {
-  const firstPage = this.document.querySelector(".start_page");
-  firstPage.className = "start_page";
-  const guidePage = this.document.querySelector(".guide_page");
-  guidePage.className = "guide_page";
-
   let count = 25;
 
   const app = {
@@ -417,16 +412,10 @@ window.addEventListener("load", function () {
         }
         if (e.target.matches(".click_here")) {
           document.querySelector(".start_page").classList.add("is_hide");
-          document
-            .querySelector(".start_page")
-            .parentNode.removeChild(document.querySelector(".start_page"));
           document.querySelector(".guide_page").classList.add("is_show");
         }
         if (e.target.matches(".click_play")) {
           document.querySelector(".guide_page").classList.add("is_hide");
-          document
-            .querySelector(".guide_page")
-            .parentNode.removeChild(document.querySelector(".guide_page"));
           document.querySelector(".container").classList.add("is_show");
         }
         if (e.target.matches(".overlay")) {
