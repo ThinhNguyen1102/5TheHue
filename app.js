@@ -422,14 +422,14 @@ window.addEventListener("load", function () {
           const overlayE = document.querySelector(".overlay");
           const containerResult = document.querySelector(".container_result");
 
-          overlayE.classList.remove("is_show_o");
+          overlayE.classList.remove("is_show_oo");
           containerResult.classList.remove("is_show_o");
         }
         if (e.target.matches(".icon-box")) {
           const overlayE = document.querySelector(".overlay");
           const containerResult = document.querySelector(".container_result");
 
-          overlayE.classList.add("is_show_o");
+          overlayE.classList.add("is_show_oo");
           containerResult.classList.add("is_show_o");
         }
       });
