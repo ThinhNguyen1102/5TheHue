@@ -482,6 +482,34 @@ window.addEventListener("load", function () {
         newContainerResult.insertAdjacentHTML("beforeend", val);
       });
     },
+    init() {
+      const conntainer = document.querySelector(".container");
+      conntainer.parentNode.removeChild(conntainer);
+
+      const containerHtml = `<div class="container">
+      <div class="show_result">
+        <img
+          src="https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883950/5thehue/images/logo_ls2di4.png"
+          alt="logo"
+          width="100px"
+        />
+        <div class="icon-box">
+          <i class="fa-solid fa-angles-left"></i>
+        </div>
+      </div>
+      <div class="main">
+        <div class="container_card-box"></div>
+        <div class="control">
+          <button class="skip">Skip</button>
+          <button class="done">Done</button>
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="line"></div>
+    </div>`;
+
+      document.body.insertAdjacentHTML("afterbegin", containerHtml);
+    },
     run: function () {
       this.handleEvent();
       this.randomCard();
