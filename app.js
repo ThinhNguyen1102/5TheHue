@@ -415,7 +415,7 @@ window.addEventListener("load", function () {
           document.querySelector(".guide_page").classList.add("is_show");
         }
         if (e.target.matches(".click_play")) {
-          document.querySelector(".guide_page").classList.add("is_hide");
+          document.querySelector(".guide_page").classList.add("is_hide_g");
           document.querySelector(".container").classList.add("is_show");
         }
         if (e.target.matches(".overlay")) {

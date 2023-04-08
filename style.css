@@ -86,7 +86,6 @@ body {
   align-items: center;
   gap: 10px;
 
-  transform: translateY(100%);
   opacity: 0;
 
   overflow: auto;
@@ -363,6 +362,11 @@ body {
 }
 
 .is_hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.is_hide_g {
+  transform: translateY(0);
   opacity: 0;
   pointer-events: none;
 }
