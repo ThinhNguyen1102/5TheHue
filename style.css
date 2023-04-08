@@ -132,6 +132,7 @@ body {
 
 .guide_page {
   transform: translateY(100%);
+  opacity: 0;
   transition: all linear 0.4s;
 }
 
@@ -160,7 +161,7 @@ body {
   font-weight: bold;
 }
 
-.start_page .img_box {
+.start_page .img_box img {
   width: 500px;
 }
 
@@ -358,6 +359,11 @@ body {
 .is_show {
   transform: translateY(0);
   opacity: 1;
+}
+
+.is_hide {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .is_show_o {

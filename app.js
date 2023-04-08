@@ -1,5 +1,3 @@
-const container = document.querySelector(".container");
-
 const datas = [
   {
     id: 1,
@@ -352,96 +350,98 @@ const datas = [
     position: 25,
   },
 ];
+window.addEventListener("load", function () {
+  let count = 25;
 
-let count = 25;
+  const app = {
+    randomCard() {
+      const doneBtn = document.querySelector(".done");
+      const skipBtn = document.querySelector(".skip");
+      const finalCard = document.querySelector(".final_card_page");
 
-const app = {
-  randomCard() {
-    const doneBtn = document.querySelector(".done");
-    const skipBtn = document.querySelector(".skip");
-    const finalCard = document.querySelector(".final_card_page");
+      if (count > 0) {
+        const containerCardbox = document.querySelector(".container_card-box");
+        let rand = Math.floor(Math.random() * 25) % 25;
 
-    if (count > 0) {
-      const containerCardbox = document.querySelector(".container_card-box");
-      let rand = Math.floor(Math.random() * 25) % 25;
-
-      while (datas[rand].isDone) {
-        rand = Math.floor(Math.random() * 25) % 25;
-      }
-
-      if (
-        containerCardbox.contains(
-          containerCardbox.querySelector(".flip-card_box")
-        )
-      )
-        containerCardbox.removeChild(
-          containerCardbox.querySelector(".flip-card_box")
-        );
-      this.renderCards(datas[rand], containerCardbox);
-    } else {
-      doneBtn.classList.add("disabled");
-      skipBtn.classList.add("disabled");
-      finalCard.classList.add("is_show_o");
-      finalCard.classList.add("add_event");
-    }
-  },
-  handleEvent() {
-    const randomCard = this.randomCard.bind(this);
-    const reRenderAllCard = this.reRenderAllCard;
-    document.addEventListener("click", function (e) {
-      console.log(e.target);
-      if (e.target.matches(".front") || e.target.matches(".back")) {
-        e.target.parentNode.classList.toggle("flip-active");
-      }
-      if (e.target.matches("button.done")) {
-        if (count >= 0) {
-          const cardId = Number(
-            document.querySelector(".flip-card_box").getAttribute("data-id")
-          );
-          datas.forEach((val) => {
-            if (val.id === cardId) {
-              val.isDone = true;
-              count = count - 1;
-              reRenderAllCard();
-              console.log(count);
-            }
-          });
+        while (datas[rand].isDone) {
+          rand = Math.floor(Math.random() * 25) % 25;
         }
-        randomCard();
-      }
-      if (e.target.matches("button.skip")) {
-        randomCard();
-      }
-      if (e.target.matches(".click_here")) {
-        document
-          .querySelector(".start_page")
-          .parentNode.removeChild(document.querySelector(".start_page"));
-        document.querySelector(".guide_page").classList.add("is_show");
-      }
-      if (e.target.matches(".click_play")) {
-        document
-          .querySelector(".guide_page")
-          .parentNode.removeChild(document.querySelector(".guide_page"));
-        document.querySelector(".container").classList.add("is_show");
-      }
-      if (e.target.matches(".overlay")) {
-        const overlayE = document.querySelector(".overlay");
-        const containerResult = document.querySelector(".container_result");
 
-        overlayE.classList.remove("is_show_o");
-        containerResult.classList.remove("is_show_o");
+        if (
+          containerCardbox.contains(
+            containerCardbox.querySelector(".flip-card_box")
+          )
+        )
+          containerCardbox.removeChild(
+            containerCardbox.querySelector(".flip-card_box")
+          );
+        this.renderCards(datas[rand], containerCardbox);
+      } else {
+        doneBtn.classList.add("disabled");
+        skipBtn.classList.add("disabled");
+        finalCard.classList.add("is_show_o");
+        finalCard.classList.add("add_event");
       }
-      if (e.target.matches(".icon-box")) {
-        const overlayE = document.querySelector(".overlay");
-        const containerResult = document.querySelector(".container_result");
+    },
+    handleEvent() {
+      const randomCard = this.randomCard.bind(this);
+      const reRenderAllCard = this.reRenderAllCard;
+      document.addEventListener("click", function (e) {
+        console.log(e.target);
+        if (e.target.matches(".front") || e.target.matches(".back")) {
+          e.target.parentNode.classList.toggle("flip-active");
+        }
+        if (e.target.matches("button.done")) {
+          if (count >= 0) {
+            const cardId = Number(
+              document.querySelector(".flip-card_box").getAttribute("data-id")
+            );
+            datas.forEach((val) => {
+              if (val.id === cardId) {
+                val.isDone = true;
+                count = count - 1;
+                reRenderAllCard();
+                console.log(count);
+              }
+            });
+          }
+          randomCard();
+        }
+        if (e.target.matches("button.skip")) {
+          randomCard();
+        }
+        if (e.target.matches(".click_here")) {
+          document.querySelector(".start_page").classList.add("is_hide");
+          // document
+          //   .querySelector(".start_page")
+          //   .parentNode.removeChild(document.querySelector(".start_page"));
+          document.querySelector(".guide_page").classList.add("is_show");
+        }
+        if (e.target.matches(".click_play")) {
+          document.querySelector(".guide_page").classList.add("is_hide");
+          // document
+          //   .querySelector(".guide_page")
+          //   .parentNode.removeChild(document.querySelector(".guide_page"));
+          document.querySelector(".container").classList.add("is_show");
+        }
+        if (e.target.matches(".overlay")) {
+          const overlayE = document.querySelector(".overlay");
+          const containerResult = document.querySelector(".container_result");
 
-        overlayE.classList.add("is_show_o");
-        containerResult.classList.add("is_show_o");
-      }
-    });
-  },
-  renderCards(cardData, parentNode) {
-    const cardHtml = `<div class="flip-card_box" data-id=${cardData.id}>
+          overlayE.classList.remove("is_show_o");
+          containerResult.classList.remove("is_show_o");
+        }
+        if (e.target.matches(".icon-box")) {
+          const overlayE = document.querySelector(".overlay");
+          const containerResult = document.querySelector(".container_result");
+
+          overlayE.classList.add("is_show_o");
+          containerResult.classList.add("is_show_o");
+        }
+      });
+    },
+    renderCards(cardData, parentNode) {
+      const cardHtml = `<div class="flip-card_box" data-id=${cardData.id}>
       <div class="card">
         <div class="front">
           <img
@@ -461,38 +461,39 @@ const app = {
       </div>
     </div>`;
 
-    parentNode.insertAdjacentHTML("beforeend", cardHtml);
-  },
-  reRenderAllCard() {
-    const containerResult = document.querySelector(".container_result");
-    const container = document.querySelector(".container");
+      parentNode.insertAdjacentHTML("beforeend", cardHtml);
+    },
+    reRenderAllCard() {
+      const containerResult = document.querySelector(".container_result");
+      const container = document.querySelector(".container");
 
-    if (containerResult) {
-      const parentNode = containerResult.parentNode;
-      parentNode.removeChild(containerResult);
-    }
-    const newContainerResult = document.createElement("div");
-    newContainerResult.setAttribute("class", "container_result");
-    container.appendChild(newContainerResult);
+      if (containerResult) {
+        const parentNode = containerResult.parentNode;
+        parentNode.removeChild(containerResult);
+      }
+      const newContainerResult = document.createElement("div");
+      newContainerResult.setAttribute("class", "container_result");
+      container.appendChild(newContainerResult);
 
-    const cardHtmls = datas.map((val) => {
-      const image = val.isDone ? val.resultImage : val.defaultImageUrl;
-      return `<img
+      const cardHtmls = datas.map((val) => {
+        const image = val.isDone ? val.resultImage : val.defaultImageUrl;
+        return `<img
             src="${image}"
             alt="image"
             data_id="${val.id}"
           />`;
-    });
+      });
 
-    cardHtmls.forEach((val) => {
-      newContainerResult.insertAdjacentHTML("beforeend", val);
-    });
-  },
-  run: function () {
-    this.handleEvent();
-    this.randomCard();
-    this.reRenderAllCard();
-  },
-};
+      cardHtmls.forEach((val) => {
+        newContainerResult.insertAdjacentHTML("beforeend", val);
+      });
+    },
+    run: function () {
+      this.handleEvent();
+      this.randomCard();
+      this.reRenderAllCard();
+    },
+  };
 
-app.run();
+  app.run();
+});
