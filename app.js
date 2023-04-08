@@ -351,6 +351,11 @@ const datas = [
   },
 ];
 window.addEventListener("load", function () {
+  const firstPage = this.document.querySelector(".start_page");
+  firstPage.className = "start_page";
+  const guidePage = this.document.querySelector(".guide_page");
+  guidePage.className = "guide_page";
+
   let count = 25;
 
   const app = {
