@@ -187,7 +187,7 @@ const datas = [
     id: 14,
     question: "How do you feel?",
     mainImageUrl:
-      "./images/https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/con_nguoi_7_ko4p1r.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/con_nguoi_7_ko4p1r.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
@@ -423,6 +423,20 @@ const app = {
           .querySelector(".guide_page")
           .parentNode.removeChild(document.querySelector(".guide_page"));
         document.querySelector(".container").classList.add("is_show");
+      }
+      if (e.target.matches(".overlay")) {
+        const overlayE = document.querySelector(".overlay");
+        const containerResult = document.querySelector(".container_result");
+
+        overlayE.classList.remove("is_show_o");
+        containerResult.classList.remove("is_show_o");
+      }
+      if (e.target.matches(".icon-box")) {
+        const overlayE = document.querySelector(".overlay");
+        const containerResult = document.querySelector(".container_result");
+
+        overlayE.classList.add("is_show_o");
+        containerResult.classList.add("is_show_o");
       }
     });
   },
