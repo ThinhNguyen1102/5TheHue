@@ -145,6 +145,7 @@ body {
   border-radius: 5px;
 }
 
+.click_cancel,
 .click_play,
 .click_here {
   padding: 10px 30px;
@@ -156,17 +157,24 @@ body {
   transition: all linear 0.25s;
 }
 
+.click_cancel,
+.click_play {
+  font-weight: bold;
+}
+
+.click_cancel:hover,
 .click_play:hover,
 .click_here:hover {
   font-weight: bold;
 }
 
-.start_page .img_box img {
-  width: 500px;
+.click_cancel:hover,
+.click_play:hover {
+  color: #957473;
 }
 
-.guide_page .img_box {
-  width: 700px;
+.start_page .img_box img {
+  width: 500px;
 }
 
 .container_result {
@@ -313,6 +321,48 @@ body {
   transform: rotateZ(90deg) scale(1.35);
 }
 
+.guide_page_box {
+  width: 60vw;
+  height: 60vh;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+
+.guide_page .img_box {
+  position: absolute;
+  height: 100%;
+
+  right: 0;
+  top: 0;
+}
+
+.guide_content_box {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  background-color: #792c28;
+
+  bottom: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.instructor {
+  height: 70%;
+}
+
+.guide_button_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 @media only screen and (max-width: 63.9375em) {
   .main {
     justify-content: flex-start;
@@ -342,10 +392,6 @@ body {
     width: 200px;
   }
 
-  .guide_page .img_box {
-    width: 90vw;
-  }
-
   .container {
     flex-direction: column;
   }
@@ -356,6 +402,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
   }
 
   .show_result img {
@@ -388,7 +435,20 @@ body {
   }
 
   .main {
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
+  }
+
+  .instructor {
+    height: 60%;
+  }
+
+  .guide_page_box {
+    width: 85%;
+    height: 50%;
+  }
+
+  .card_box_wrapper {
+    justify-content: flex-start;
   }
 }
 
@@ -398,6 +458,9 @@ body {
   }
   .main {
     width: 100%;
+  }
+  .guide_content {
+    font-size: 12px;
   }
 }
 

@@ -379,8 +379,14 @@ const resultCards = [
   "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883989/5thehue/images/5TheHue/5TheHue_25_s3joei.gif",
 ];
 
+const guides = [
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum corrupti possimus a magni, mollitia recusandae eius quam ad illo.",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum corrupti possimus a magni, mollitia recusandae eius quam ad illo, totam delectus expedita suscipit animi earum perspiciatis dolores, quia sed.",
+];
+
 window.addEventListener("load", function () {
   let count = 25;
+  let countGuide = 2;
 
   const app = {
     randomCard() {
@@ -426,7 +432,6 @@ window.addEventListener("load", function () {
         finalCard.classList.add("is_show_o");
         finalCard.classList.add("add_event");
       }
-
     },
     handleEvent() {
       const randomCard = this.randomCard.bind(this);
@@ -462,8 +467,15 @@ window.addEventListener("load", function () {
           document.querySelector(".guide_page").classList.add("is_show");
         }
         if (e.target.matches(".click_play")) {
-          document.querySelector(".guide_page").classList.add("is_hide_g");
-          document.querySelector(".container").classList.add("is_show");
+          const guideContent = document.querySelector(".guide_content");
+
+          if (countGuide > 0) {
+            guideContent.textContent = guides[countGuide - 1];
+            countGuide = countGuide - 1;
+          } else {
+            document.querySelector(".guide_page").classList.add("is_hide_g");
+            document.querySelector(".container").classList.add("is_show");
+          }
         }
         if (e.target.matches(".overlay")) {
           const overlayE = document.querySelector(".overlay");
