@@ -378,3 +378,65 @@ const resultCards = [
   "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_24_i7vdjh.gif",
   "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883989/5thehue/images/5TheHue/5TheHue_25_s3joei.gif",
 ];
+
+const conNguoiCards = [
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359718/5thehue/images/con_nguoi/con_nguoi_1_snm3kv.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_2_baobl1.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359718/5thehue/images/con_nguoi/con_nguoi_3_l6gd1l.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_4_syehnq.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_5_xajebb.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_6_noj2qm.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_7_dko5sm.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359720/5thehue/images/con_nguoi/con_nguoi_8_i8v0s2.png",
+];
+
+const kienTrucCards = [
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359815/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_1__%C4%90%E1%BA%A1i_N%E1%BB%99i_Hu%E1%BA%BF_n2gyyy.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_2__L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_rlsay7.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359815/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_3__L%C3%A0ng_H%C6%B0%C6%A1ng_yyzfu5.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_4__C%E1%BA%A7u_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n_w2apgj.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_5__Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF_cgbogv.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_6__%C4%90%C3%A0n_Nam_Giao_qn2sfb.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_7__Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5_jz5dun.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_7__Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5_jz5dun.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_9_cm3glw.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_10_ewxisu.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_11_ww6jxr.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_12_pqi8dd.png",
+];
+
+const amThucCards = [
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359743/5thehue/images/am_thuc/%E1%BA%A2m_th%E1%BB%B1c_1__B%C3%BAn_b%C3%B2_lhf2je.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359743/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_2_iw8doa.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_3_ezfeno.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_4__B%E1%BB%99t_l%E1%BB%8Dc_heo_quay_gsaf9j.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_5__C%C3%A0_ph%C3%AA_mu%E1%BB%91i_sfpat6.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_6__Tr%C3%A0_sen_H%E1%BB%93_t%E1%BB%8Bnh_t%C3%A2m_a9lvoh.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_7__B%C3%A1nh_canh_htp6nc.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A9m_th%E1%BB%B1c_8_yjxglb.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359745/5thehue/images/am_thuc/%E1%BA%A9m_th%E1%BB%B1c_9_fi3nst.png",
+];
+
+const funCards = [
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_2_cs5maj.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_5_sbqqf2.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_1_tvfith.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_2_mfkbvp.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_6_dnpdcz.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_4_h2fubg.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/fun7_dqmziu.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359789/5thehue/images/fun/fun8_riamv6.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359789/5thehue/images/fun/Fun_4_uwuqqs.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_c61rof.png",
+  "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/fun_7_wsrmry.png",
+];
+
+const conNguoi2 = funCards.map((val, index) => {
+  return {
+    cardId: index + 1,
+    quesCardUrl: val,
+    isDone: false,
+  };
+});
+
+console.log(conNguoi2);

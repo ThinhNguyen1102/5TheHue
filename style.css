@@ -193,6 +193,7 @@ body {
   flex: 5;
   height: 100%;
   overflow: hidden;
+  position: relative;
   /* background-color: aqua; */
 }
 
@@ -363,6 +364,39 @@ body {
   gap: 20px;
 }
 
+.funnn {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  color: #b33939;
+  font-size: 20px;
+  transition: all 0.2s linear;
+  transform: translateX(-200px);
+  opacity: 0;
+
+  background-color: #fff;
+  box-shadow: 0 0 20px 1px rgba(50, 50, 50, 0.2);
+  padding: 10px 20px;
+  padding-left: 100px;
+  border-radius: 10px;
+  z-index: 10;
+}
+.funnnActive {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fireworksDiv {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 63.9375em) {
   .main {
     justify-content: flex-start;
@@ -450,6 +484,10 @@ body {
   .card_box_wrapper {
     justify-content: flex-start;
   }
+
+  .funnn {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 30.1875em) {
@@ -509,4 +547,8 @@ body {
 .showBottom {
   transform: translateY(-100%);
   opacity: 1;
+}
+
+.unDisplayNone {
+  display: block;
 }
