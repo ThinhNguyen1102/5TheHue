@@ -100,7 +100,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.05;
+  opacity: 0.1;
   pointer-events: none;
   z-index: -1;
 }
@@ -334,7 +334,7 @@ body {
   height: 100%;
 
   right: 0;
-  top: 0;
+  top: -80px;
 }
 
 .guide_content_box {
@@ -354,7 +354,7 @@ body {
 }
 
 .instructor {
-  height: 70%;
+  height: 80%;
 }
 
 .guide_button_box {
@@ -395,6 +395,10 @@ body {
   bottom: 0;
   z-index: 20;
   pointer-events: none;
+}
+
+.guide_content i {
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 63.9375em) {
@@ -478,7 +482,7 @@ body {
 
   .guide_page_box {
     width: 85%;
-    height: 50%;
+    height: 60%;
   }
 
   .card_box_wrapper {

@@ -356,53 +356,41 @@ const conNguoi = {
     {
       cardId: 1,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359718/5thehue/images/con_nguoi/con_nguoi_1_snm3kv.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_6_rhrlii.png",
       isDone: false,
     },
     {
       cardId: 2,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_2_baobl1.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_2_gyfdc5.png",
       isDone: false,
     },
     {
       cardId: 3,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359718/5thehue/images/con_nguoi/con_nguoi_3_l6gd1l.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_4_es0cg4.png",
       isDone: false,
     },
     {
       cardId: 4,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_4_syehnq.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_5_q6orlh.png",
       isDone: false,
     },
     {
       cardId: 5,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_5_xajebb.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_1_di43vw.png",
       isDone: false,
     },
     {
       cardId: 6,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_6_noj2qm.png",
-      isDone: false,
-    },
-    {
-      cardId: 7,
-      quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359719/5thehue/images/con_nguoi/con_nguoi_7_dko5sm.png",
-      isDone: false,
-    },
-    {
-      cardId: 8,
-      quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359720/5thehue/images/con_nguoi/con_nguoi_8_i8v0s2.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669191/5thehue/images_new/con_nguoi/con_nguoi_3_nnyegc.png",
       isDone: false,
     },
   ],
-  totalNotDone: 8,
+  totalNotDone: 6,
 };
 
 const kienTruc = {
@@ -410,77 +398,71 @@ const kienTruc = {
     {
       cardId: 1,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359815/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_1__%C4%90%E1%BA%A1i_N%E1%BB%99i_Hu%E1%BA%BF_n2gyyy.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669211/5thehue/images_new/kien_truc/kien_truc_1_zmcqii.png",
       isDone: false,
     },
     {
       cardId: 2,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_2__L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_rlsay7.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669211/5thehue/images_new/kien_truc/kien_truc_2_qquulh.png",
       isDone: false,
     },
     {
       cardId: 3,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359815/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_3__L%C3%A0ng_H%C6%B0%C6%A1ng_yyzfu5.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669212/5thehue/images_new/kien_truc/kien_truc_3_yxfgfv.png",
       isDone: false,
     },
     {
       cardId: 4,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_4__C%E1%BA%A7u_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n_w2apgj.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669212/5thehue/images_new/kien_truc/kien_truc_4_ekhzrz.png",
       isDone: false,
     },
     {
       cardId: 5,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_5__Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF_cgbogv.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669212/5thehue/images_new/kien_truc/kien_truc_5_lxf34y.png",
       isDone: false,
     },
     {
       cardId: 6,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_6__%C4%90%C3%A0n_Nam_Giao_qn2sfb.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669211/5thehue/images_new/kien_truc/kien_truc_6_ihl9u5.png",
       isDone: false,
     },
     {
       cardId: 7,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_7__Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5_jz5dun.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669212/5thehue/images_new/kien_truc/kien_truc_7_e0c5fk.png",
       isDone: false,
     },
     {
       cardId: 8,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/Ki%E1%BA%BFn_tr%C3%BAc_7__Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5_jz5dun.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669212/5thehue/images_new/kien_truc/kien_truc_8_wclwiz.png",
       isDone: false,
     },
     {
       cardId: 9,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359816/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_9_cm3glw.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669213/5thehue/images_new/kien_truc/kien_truc_9_yaclmx.png",
       isDone: false,
     },
     {
       cardId: 10,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_10_ewxisu.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669213/5thehue/images_new/kien_truc/kien_truc_10_r7dp6y.png",
       isDone: false,
     },
     {
       cardId: 11,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_11_ww6jxr.png",
-      isDone: false,
-    },
-    {
-      cardId: 12,
-      quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359817/5thehue/images/kien_truc/ki%E1%BA%BFn_tr%C3%BAc_12_pqi8dd.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669213/5thehue/images_new/kien_truc/kien_truc_11_lkyav4.png",
       isDone: false,
     },
   ],
-  totalNotDone: 12,
+  totalNotDone: 11,
 };
 
 const amThuc = {
@@ -488,59 +470,89 @@ const amThuc = {
     {
       cardId: 1,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359743/5thehue/images/am_thuc/%E1%BA%A2m_th%E1%BB%B1c_1__B%C3%BAn_b%C3%B2_lhf2je.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_2_nduq2k.png",
       isDone: false,
     },
     {
       cardId: 2,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359743/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_2_iw8doa.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_4_eyq16l.png",
       isDone: false,
     },
     {
       cardId: 3,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_3_ezfeno.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_6_neomva.png",
       isDone: false,
     },
     {
       cardId: 4,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_4__B%E1%BB%99t_l%E1%BB%8Dc_heo_quay_gsaf9j.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_1_zpgzwa.png",
       isDone: false,
     },
     {
       cardId: 5,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_5__C%C3%A0_ph%C3%AA_mu%E1%BB%91i_sfpat6.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_3_ai1uz5.png",
       isDone: false,
     },
     {
       cardId: 6,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_6__Tr%C3%A0_sen_H%E1%BB%93_t%E1%BB%8Bnh_t%C3%A2m_a9lvoh.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669334/5thehue/images_new/am_thuc/am_thuc_5_h414s8.png",
       isDone: false,
     },
     {
       cardId: 7,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A8m_th%E1%BB%B1c_7__B%C3%A1nh_canh_htp6nc.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669335/5thehue/images_new/am_thuc/am_thuc_7_hi4ba8.png",
       isDone: false,
     },
     {
       cardId: 8,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359744/5thehue/images/am_thuc/%E1%BA%A9m_th%E1%BB%B1c_8_yjxglb.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669335/5thehue/images_new/am_thuc/am_thuc_8_zfucsx.png",
       isDone: false,
     },
     {
       cardId: 9,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359745/5thehue/images/am_thuc/%E1%BA%A9m_th%E1%BB%B1c_9_fi3nst.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669335/5thehue/images_new/am_thuc/am_thuc_9_ery45z.png",
+      isDone: false,
+    },
+    {
+      cardId: 10,
+      quesCardUrl:
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669335/5thehue/images_new/am_thuc/am_thuc_11_pjs6zh.png",
+      isDone: false,
+    },
+    {
+      cardId: 11,
+      quesCardUrl:
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669335/5thehue/images_new/am_thuc/am_thuc_10_iwvknl.png",
+      isDone: false,
+    },
+    {
+      cardId: 12,
+      quesCardUrl:
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669336/5thehue/images_new/am_thuc/am_thuc_13_slzibl.png",
+      isDone: false,
+    },
+    {
+      cardId: 13,
+      quesCardUrl:
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669336/5thehue/images_new/am_thuc/am_thuc_12._owlhwl.png",
+      isDone: false,
+    },
+    {
+      cardId: 14,
+      quesCardUrl:
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669336/5thehue/images_new/am_thuc/am_thuc_14_nfwb4n.png",
       isDone: false,
     },
   ],
-  totalNotDone: 9,
+  totalNotDone: 14,
 };
 
 const fun = {
@@ -548,81 +560,74 @@ const fun = {
     {
       cardId: 1,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_2_cs5maj.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669367/5thehue/images_new/fun/fun_8_k8nvtw.png",
       isDone: false,
     },
     {
       cardId: 2,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_5_sbqqf2.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669367/5thehue/images_new/fun/fun_7_kmtzcg.png",
       isDone: false,
     },
     {
       cardId: 3,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359787/5thehue/images/fun/Fun_1_tvfith.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669367/5thehue/images_new/fun/fun_9_w6jyqy.png",
       isDone: false,
     },
     {
       cardId: 4,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_2_mfkbvp.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_4_t6ymck.png",
       isDone: false,
     },
     {
       cardId: 5,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_6_dnpdcz.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_2_audejx.png",
       isDone: false,
     },
     {
       cardId: 6,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_4_h2fubg.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_6_ojyl8h.png",
       isDone: false,
     },
     {
       cardId: 7,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/fun7_dqmziu.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_5_gdiplc.png",
       isDone: false,
     },
     {
       cardId: 8,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359789/5thehue/images/fun/fun8_riamv6.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_3_juyomc.png",
       isDone: false,
     },
     {
       cardId: 9,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359789/5thehue/images/fun/Fun_4_uwuqqs.png",
-      isDone: false,
-    },
-    {
-      cardId: 10,
-      quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/Fun_c61rof.png",
-      isDone: false,
-    },
-    {
-      cardId: 11,
-      quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687359788/5thehue/images/fun/fun_7_wsrmry.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669366/5thehue/images_new/fun/fun_1_taqh8m.png",
       isDone: false,
     },
   ],
-  totalNotDone: 11,
+  totalNotDone: 9,
 };
 
 const guides = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum corrupti possimus a magni, mollitia recusandae eius quam ad illo.",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum corrupti possimus a magni, mollitia recusandae eius quam ad illo, totam delectus expedita suscipit animi earum perspiciatis dolores, quia sed.",
+  "<h1><strong>Let's goooooo !!!</strong></h1>",
+  `<i class="fa-solid fa-arrow-right"></i>  Above are all the guides on how to play and use 5THEHUE effectively with these 25 cards. We hope you have a memorable experience in Hue with this deck.`,
+  `<i class="fa-solid fa-arrow-right"></i>  5THEHUE includes 25 cards + 1 special card. Each will challenge you to complete tasks regarding famous destinations, eating places, and entertainment venues. 
+  <br/><i class="fa-solid fa-arrow-right"></i>  When you start playing, draw a card randomly from the deck and take on challenges written.  
+  If you draw the special card during the game, save it for last. You will not regret it.  
+  After completing 25 tasks, scratch the part hidden in the special card and do what it asks.  
+  <br/><i class="fa-solid fa-arrow-right"></i>  Share your thoughts on social media about your travel experience with the deck and hashtag #5thehue. `,
 ];
 
 window.addEventListener("load", function () {
   let count = 25;
-  let countGuide = 2;
+  let countGuide = 3;
 
   const app = {
     randomCard() {
@@ -689,9 +694,9 @@ window.addEventListener("load", function () {
         }
 
         if (!isTrueCard && fun.totalNotDone > 0) {
-          let randFC = Math.floor(Math.random() * 11) % 11;
+          let randFC = Math.floor(Math.random() * 9) % 9;
           while (fun.funCards[randFC].isDone) {
-            randFC = Math.floor(Math.random() * 11) % 11;
+            randFC = Math.floor(Math.random() * 9) % 9;
           }
           quesCards[rand].mainImageUrl = fun.funCards[randFC].quesCardUrl;
           quesCards[rand].topic = "fun";
@@ -703,9 +708,9 @@ window.addEventListener("load", function () {
           }, 1000);
         } else {
           if (topic == 1 && conNguoi.totalNotDone > 0) {
-            let randCN = Math.floor(Math.random() * 8) % 8;
+            let randCN = Math.floor(Math.random() * 6) % 6;
             while (conNguoi.conNguoiCards[randCN].isDone) {
-              randCN = Math.floor(Math.random() * 8) % 8;
+              randCN = Math.floor(Math.random() * 6) % 6;
             }
             quesCards[rand].mainImageUrl =
               conNguoi.conNguoiCards[randCN].quesCardUrl;
@@ -716,9 +721,9 @@ window.addEventListener("load", function () {
               cnBtn.classList.add("disabled");
             }
           } else if (topic == 2 && kienTruc.totalNotDone > 0) {
-            let randKT = Math.floor(Math.random() * 12) % 12;
+            let randKT = Math.floor(Math.random() * 11) % 11;
             while (kienTruc.kienTrucCards[randKT].isDone) {
-              randKT = Math.floor(Math.random() * 12) % 12;
+              randKT = Math.floor(Math.random() * 11) % 11;
             }
             quesCards[rand].mainImageUrl =
               kienTruc.kienTrucCards[randKT].quesCardUrl;
@@ -729,9 +734,9 @@ window.addEventListener("load", function () {
               ktBtn.classList.add("disabled");
             }
           } else if (topic == 3 && amThuc.totalNotDone > 0) {
-            let randAT = Math.floor(Math.random() * 9) % 9;
+            let randAT = Math.floor(Math.random() * 14) % 14;
             while (amThuc.amThucCards[randAT].isDone) {
-              randAT = Math.floor(Math.random() * 9) % 9;
+              randAT = Math.floor(Math.random() * 14) % 14;
             }
             quesCards[rand].mainImageUrl =
               amThuc.amThucCards[randAT].quesCardUrl;
@@ -802,7 +807,7 @@ window.addEventListener("load", function () {
           const guideContent = document.querySelector(".guide_content");
 
           if (countGuide > 0) {
-            guideContent.textContent = guides[countGuide - 1];
+            guideContent.innerHTML = guides[countGuide - 1];
             countGuide = countGuide - 1;
           } else {
             document.querySelector(".guide_page").classList.add("is_hide_g");
