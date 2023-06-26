@@ -550,7 +550,15 @@ body {
   }
 
   .guide_content_box {
-    height: 35%;
+    height: 40%;
+  }
+
+  .chooseTopicWrapper {
+    padding-bottom: 15vh;
+  }
+
+  .guide_page {
+    padding-bottom: 15vh;
   }
 }
 
