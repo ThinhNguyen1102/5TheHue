@@ -496,7 +496,7 @@ const kienTruc = {
     {
       cardId: 9,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669213/5thehue/images_new/kien_truc/kien_truc_9_yaclmx.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687773028/5thehue/images_new/kien_truc/kien_truc_9_gf0wh1.png",
       isDone: false,
     },
     {
@@ -508,7 +508,7 @@ const kienTruc = {
     {
       cardId: 11,
       quesCardUrl:
-        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669213/5thehue/images_new/kien_truc/kien_truc_11_lkyav4.png",
+        "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687773044/5thehue/images_new/kien_truc/kien_truc_11_mt5yqa.png",
       isDone: false,
     },
   ],
@@ -862,6 +862,9 @@ window.addEventListener("load", function () {
             document.querySelector(".guide_page").classList.add("is_hide_g");
             document.querySelector(".container").classList.add("is_show");
           }
+        }
+        if (e.target.matches(".click_cancel")) {
+          window.location.reload();
         }
         if (e.target.matches(".overlay")) {
           const overlayE = document.querySelector(".overlay");

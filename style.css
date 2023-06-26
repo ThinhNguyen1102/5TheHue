@@ -140,10 +140,19 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.final_card_page .img_box img {
-  width: 1000px;
-  border-radius: 5px;
+.final_card_page .img_box {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687795882/5thehue/images_new/khac/final_image_2_ckurdd.png");
+  background-size: cover;
+  background-position: center;
 }
+
+/* .final_card_page .img_box img {
+  height: 100%;
+  border-radius: 5px;
+} */
 
 .click_cancel,
 .click_play,
@@ -335,7 +344,7 @@ body {
   height: 100%;
 
   right: 0;
-  top: -120px;
+  top: -110px;
 }
 
 .guide_content_box {
@@ -400,6 +409,19 @@ body {
 
 .guide_content i {
   font-size: 12px;
+}
+
+.more {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #af4f4f;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.more i {
+  padding-left: 10px;
 }
 
 @media only screen and (max-width: 63.9375em) {
@@ -500,6 +522,10 @@ body {
 
   .guide_content_box {
     padding: 20px;
+  }
+
+  .more {
+    bottom: 10vh;
   }
 }
 
