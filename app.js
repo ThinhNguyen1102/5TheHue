@@ -3,11 +3,13 @@ const quesCards = [
     id: 1,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883943/5thehue/images/am_thuc_1_bun_bo_oi9h97.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_01_kiqlaq.png",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -17,11 +19,13 @@ const quesCards = [
     id: 2,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883944/5thehue/images/am_thuc_2_dojrsw.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_02_oihuq7.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -31,11 +35,13 @@ const quesCards = [
     id: 3,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883944/5thehue/images/am_thuc_3_hucjmw.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_03_szemiy.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -45,11 +51,13 @@ const quesCards = [
     id: 4,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883944/5thehue/images/am_thuc_4_bot_loc_heo_quay_t5qfv1.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_04_dcrbs1.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -59,11 +67,13 @@ const quesCards = [
     id: 5,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883944/5thehue/images/am_thuc_5_cafe_muoi_zxcla8.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_05_slkp2c.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -73,11 +83,13 @@ const quesCards = [
     id: 6,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883945/5thehue/images/am_thuc_6_tra_sen_tinh_tam_dfqoiv.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_06_vpkckz.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -87,11 +99,13 @@ const quesCards = [
     id: 7,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883945/5thehue/images/am_thuc_7_banh_canh_twixhj.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_07_j7uphl.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -101,11 +115,13 @@ const quesCards = [
     id: 8,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883945/5thehue/images/con_nguoi_1_wnlcjk.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_08_divcxz.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -115,11 +131,13 @@ const quesCards = [
     id: 9,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883946/5thehue/images/con_nguoi_2_cbeh3h.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_09_cwxhpk.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -129,11 +147,13 @@ const quesCards = [
     id: 10,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883945/5thehue/images/con_nguoi_3_dmoyiq.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883986/5thehue/images/5TheHue/5TheHue_10_uc5umk.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -143,11 +163,13 @@ const quesCards = [
     id: 11,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883946/5thehue/images/con_nguoi_4_bv9cs1.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_11_ojcj4l.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -157,11 +179,13 @@ const quesCards = [
     id: 12,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/con_nguoi_5_ewqoim.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_12_lxhziq.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -171,11 +195,13 @@ const quesCards = [
     id: 13,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/con_nguoi_6_gdvo2r.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_13_mdntyv.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -185,11 +211,13 @@ const quesCards = [
     id: 14,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/con_nguoi_7_ko4p1r.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_14_gq2ryl.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -199,11 +227,13 @@ const quesCards = [
     id: 15,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/fun_1_frf6yo.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_15_xhqkru.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -213,11 +243,13 @@ const quesCards = [
     id: 16,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883948/5thehue/images/fun_2_axfjrx.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_16_nxiais.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -227,11 +259,13 @@ const quesCards = [
     id: 17,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883948/5thehue/images/fun_4_xtjx6x.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_17_hjenml.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -241,11 +275,13 @@ const quesCards = [
     id: 18,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883950/5thehue/images/Kien_truc_7_chua_thien_mu_buwpke.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883987/5thehue/images/5TheHue/5TheHue_18_dh1he7.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -255,11 +291,13 @@ const quesCards = [
     id: 19,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883949/5thehue/images/fun_lwessz.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_19_bksdpv.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -269,11 +307,13 @@ const quesCards = [
     id: 20,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883948/5thehue/images/Kien_truc_1_dai_noi_hue_dfczvz.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_20_rty36e.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -283,11 +323,13 @@ const quesCards = [
     id: 21,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883949/5thehue/images/Kien_truc_2_lang_khai_dinh_oiuzcw.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_21_xfisut.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -297,11 +339,13 @@ const quesCards = [
     id: 22,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883949/5thehue/images/Kien_truc_3_lang_huong_yizj23.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_22_iohmf2.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -311,11 +355,13 @@ const quesCards = [
     id: 23,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883949/5thehue/images/Kien_truc_4_cau_truong_tien_cqp8f8.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_23_zxwitt.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -325,11 +371,13 @@ const quesCards = [
     id: 24,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883949/5thehue/images/Kien_truc_5_quoc_hoc_hue_bsieyq.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883988/5thehue/images/5TheHue/5TheHue_24_i7vdjh.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -339,11 +387,13 @@ const quesCards = [
     id: 25,
     topic: "",
     mainImageUrl:
-      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883950/5thehue/images/Kien_truc_6_dan_nam_giao_jxnpxd.png",
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     defaultImageUrl:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883947/5thehue/images/default_cdgr5b.jpg",
     resultImage:
       "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1680883989/5thehue/images/5TheHue/5TheHue_25_s3joei.gif",
+    backEmail:
+      "https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687669435/5thehue/images_new/khac/bia_sau_wzwu0o.png",
     isDone: false,
     isCorrect: false,
     indexTopic: 0,
@@ -616,13 +666,12 @@ const fun = {
 };
 
 const guides = [
-  "<h1><strong>Let's goooooo !!!</strong></h1>",
-  `<i class="fa-solid fa-arrow-right"></i>  Above are all the guides on how to play and use 5THEHUE effectively with these 25 cards. We hope you have a memorable experience in Hue with this deck.`,
-  `<i class="fa-solid fa-arrow-right"></i>  5THEHUE includes 25 cards + 1 special card. Each will challenge you to complete tasks regarding famous destinations, eating places, and entertainment venues. 
+  `<h1 class="gooooooo"><strong>Let's goooooo !!!</strong></h1>`,
+  `<i class="fa-solid fa-arrow-right"></i>  Above are all the guides on how to play and use 5THEHUE effectively with these 25 + 1 cards.<br/><i class="fa-solid fa-arrow-right"></i>  We hope you have a memorable experience in Hue with this deck.`,
+  `<i class="fa-solid fa-arrow-right"></i>  5THEHUE includes 25 + 1 cards. Each will challenge you to complete tasks regarding famous destinations, eating places, and entertainment venues. 
   <br/><i class="fa-solid fa-arrow-right"></i>  When you start playing, draw a card randomly from the deck and take on challenges written.  
-  If you draw the special card during the game, save it for last. You will not regret it.  
-  After completing 25 tasks, scratch the part hidden in the special card and do what it asks.  
-  <br/><i class="fa-solid fa-arrow-right"></i>  Share your thoughts on social media about your travel experience with the deck and hashtag #5thehue. `,
+  <br/><i class="fa-solid fa-arrow-right"></i>  You should have your friend draw the card.
+  <br/><i class="fa-solid fa-arrow-right"></i>  Enjoy your time and share your thoughts on social media with the hashtag #5thehue.`,
 ];
 
 window.addEventListener("load", function () {
@@ -856,7 +905,7 @@ window.addEventListener("load", function () {
           <div class="back">
               <img
               class="image-card"
-              src="${cardData.resultImage}"
+              src="${cardData.backEmail}"
               alt="image"
             />
           </div>
