@@ -562,10 +562,14 @@ body {
   }
 
   .final_card_page .img_box {
-    background-image: url("https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687835623/5thehue/images_new/khac/thank_you_m6qn8j.png");
+    background-image: url("https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687837661/5thehue/images_new/khac/thank_you_2_h5gkui.png");
   }
   .wrapper {
     background-image: url("https://res.cloudinary.com/dkdwgdq4i/image/upload/v1687835623/5thehue/images_new/khac/backdrop_fknw7x.png");
+  }
+
+  .more {
+    bottom: 12vh;
   }
 }
 
